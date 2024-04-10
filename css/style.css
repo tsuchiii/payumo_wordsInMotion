@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  width: 100%; 
+  min-height: 100%;
+  background-image: url(../img/parchment.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.lyrics {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: max-content
+}    
+
+
+
+.intro_english {
+  display: flex;
+  flex-direction: column;
+  font-family: "Protest Revolution";
+  margin-left: 500px;
+  margin-right: 500px;
+
+  font-size: 50px;
+
+}
+
+.bridge_japanese {
+  display: flex;
+  flex-direction: row;
+  font-family: "Zen Old Mincho"; 
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-left: 500px;
+  margin-right: 500px;
+  font-size: 50px;
+
+
+}
+
+.chorus_english {
+  display: flex;
+  flex-direction: column;
+  font-family: "Protest Revolution";
+  margin-left: 500px;
+  margin-right: 500px;
+  font-size: 50px;
+
+}
+
+.post_chorus_japanese {
+  display: flex;
+  flex-direction: row;
+  font-family: "Zen Old Mincho";
+  align-items: center;
+  justify-content: center;
+  margin-left: 500px;
+  margin-right: 500px;
+  font-size: 50px;
+
+}
+
+.post_chorus_english {
+  display: flex;
+  flex-direction: column;
+  font-family: "Protest Revolution";
+  margin-left: 500px;
+  margin-right: 500px;
+  font-size: 50px;
+
+}
+
+.credits {
+  display: flex;
+  flex-direction: column;
+  font-family: "Protest Revolution";
+  margin-left: 500px;
+  margin-right: 500px;
+  font-size: 50px;
+
+}
+
+.english_line1 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.english_line2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.english_line3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.english_line4 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.english_line5 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.english_line6 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.english_line7 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.english_line8 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+
+.japanese_line1 {
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+
+
+.japanese_line2 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.japanese_line3 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+.japanese_line4 {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
