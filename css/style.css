@@ -195,7 +195,7 @@ body {
 
 .droplets {
   animation-name: characterDroplets;
-  animation-duration: 1s;
+  animation-duration: 5s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -207,7 +207,7 @@ body {
 
 .droplets1 {
   animation-name: characterDroplets;
-  animation-duration: 2s;
+  animation-duration: 5.5s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -219,7 +219,7 @@ body {
 
 .droplets2 {
   animation-name: characterDroplets;
-  animation-duration: 3s;
+  animation-duration: 6s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -231,7 +231,7 @@ body {
 
 .droplets3 {
   animation-name: characterDroplets;
-  animation-duration: 4s;
+  animation-duration: 6.5s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -243,7 +243,7 @@ body {
 
 .droplets4 {
   animation-name: characterDroplets;
-  animation-duration: 5s;
+  animation-duration: 7s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -255,7 +255,7 @@ body {
 
 .droplets5 {
   animation-name: characterDroplets;
-  animation-duration: 6s;
+  animation-duration: 7.5s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -267,7 +267,7 @@ body {
 
 .droplets6 {
   animation-name: characterDroplets;
-  animation-duration: 7s;
+  animation-duration: 8s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -279,7 +279,7 @@ body {
 
 .droplets7 {
   animation-name: characterDroplets;
-  animation-duration: 8s;
+  animation-duration: 8.5s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -303,7 +303,7 @@ body {
 
 .droplets9 {
   animation-name: characterDroplets;
-  animation-duration: 10s;
+  animation-duration: 9.5s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -315,7 +315,7 @@ body {
 
 .droplets10 {
   animation-name: characterDroplets;
-  animation-duration: 11s;
+  animation-duration: 10s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -327,7 +327,7 @@ body {
 
 .droplets11 {
   animation-name: characterDroplets;
-  animation-duration: 12s;
+  animation-duration: 10.5s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -339,7 +339,7 @@ body {
 
 .droplets12 {
   animation-name: characterDroplets;
-  animation-duration: 13s;
+  animation-duration: 11s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -351,7 +351,7 @@ body {
 
 .droplets13 {
   animation-name: characterDroplets;
-  animation-duration: 14s;
+  animation-duration: 11.5s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -363,7 +363,7 @@ body {
 
 .droplets14 {
   animation-name: characterDroplets;
-  animation-duration: 15s;
+  animation-duration: 12s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -375,7 +375,7 @@ body {
 
 .droplets15 {
   animation-name: characterDroplets;
-  animation-duration: 16s;
+  animation-duration: 13s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -387,7 +387,7 @@ body {
 
 .droplets16 {
   animation-name: characterDroplets;
-  animation-duration: 17s;
+  animation-duration: 13.5s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -399,7 +399,7 @@ body {
 
 .droplets17 {
   animation-name: characterDroplets;
-  animation-duration: 18s;
+  animation-duration: 14s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -411,7 +411,7 @@ body {
 
 .droplets18 {
   animation-name: characterDroplets;
-  animation-duration: 19s;
+  animation-duration: 14.5s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
@@ -423,7 +423,7 @@ body {
 
 .droplets19 {
   animation-name: characterDroplets;
-  animation-duration: 20s;
+  animation-duration: 15s;
   animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-direction: normal;
