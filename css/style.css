@@ -503,3 +503,57 @@ body {
 .passingCloud1 {
   animation: windClouds 7s infinite;
 }
+
+/*
+.blood {
+  background-image: linearGradient(to left,#880808, #800020,	#8B0000, #770737, #A42A04	);
+  -webkit-background-clip: text;
+  animation: bloody 5s linear infinite;
+}
+
+@keyframes bloody{
+  0%{
+    background-position: 0 100%;
+  }
+  50%{
+    background-position: 100% 0;
+  }
+  100%{
+    background-position: 0 100%;
+  }
+}
+
+
+#english_line3 h2 onhover {
+  color: red;
+}
+
+*/
+
+.blood {
+  color:black;
+  animation: bloody 7s infinite alternate;
+}
+
+@keyframes bloody {
+  0% {
+    color: black;
+  }
+  100% {
+    color: red;
+  } 
+}
+
+.sun {
+  color:black;
+  animation: sunny 7s infinite alternate;
+}
+
+@keyframes sunny {
+  0% {
+    color: black;
+  }
+  100% {
+    color: goldenrod;
+  } 
+}
