@@ -4,6 +4,11 @@
 
 }
 
+html {
+
+
+}
+
 body {
   width: 100%; 
   min-height: 100%;
@@ -12,6 +17,8 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+
+  overflow-y: hidden;
 }
 
 .lyrics {
@@ -22,7 +29,6 @@ body {
   margin-left: 300px;
   margin-right: 300px;
   margin-top: 100px;
-  margin-bottom: 100px;
   width: max-content
 }    
 
@@ -35,7 +41,8 @@ body {
   margin-left: 500px;
   margin-right: 500px;
 
-  font-size: 50px;
+  font-size: 20px;
+  text-align: center;
 
 }
 
@@ -45,11 +52,10 @@ body {
   font-family: "Zen Old Mincho"; 
   align-items: center;
   justify-content: center;
-  margin-left: 300px;
-  margin-right: 300px;
+
   margin-left: 500px;
   margin-right: 500px;
-  font-size: 50px;
+  font-size: 25px;
 
 
 }
@@ -60,7 +66,8 @@ body {
   font-family: "Protest Revolution";
   margin-left: 500px;
   margin-right: 500px;
-  font-size: 50px;
+  font-size: 20px;
+  text-align: center;
 
 }
 
@@ -72,7 +79,7 @@ body {
   justify-content: center;
   margin-left: 500px;
   margin-right: 500px;
-  font-size: 50px;
+  font-size: 25px;
 
 }
 
@@ -82,7 +89,8 @@ body {
   font-family: "Protest Revolution";
   margin-left: 500px;
   margin-right: 500px;
-  font-size: 50px;
+  font-size: 20px;
+  text-align: center;
 
 }
 
@@ -93,47 +101,48 @@ body {
   margin-left: 500px;
   margin-right: 500px;
   font-size: 50px;
+  text-align: center;
 
 }
 
 .english_line1 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .english_line2 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .english_line3 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .english_line4 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .english_line5 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .english_line6 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .english_line7 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .english_line8 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 
@@ -165,4 +174,332 @@ body {
 .footer {
   padding-top: 50px;
   padding-bottom: 50px;
+  justify-content: center;
+}
+
+.animate {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+
+}
+
+@keyframes characterDroplets {
+  from {
+    transform: translateY(-1000px);
+  }
+
+  to {
+    transfrom: translateY(0);
+  }
+}
+
+.droplets {
+  animation-name: characterDroplets;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+
+  transform: translateY(0px);
+}
+
+.droplets1 {
+  animation-name: characterDroplets;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+
+  transform: translateY(0px);
+}
+
+.droplets2 {
+  animation-name: characterDroplets;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+
+  transform: translateY(0px);
+}
+
+.droplets3 {
+  animation-name: characterDroplets;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+
+  transform: translateY(0px);
+}
+
+.droplets4 {
+  animation-name: characterDroplets;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+
+  transform: translateY(0px);
+}
+
+.droplets5 {
+  animation-name: characterDroplets;
+  animation-duration: 6s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 6s;
+
+  transform: translateY(0px);
+}
+
+.droplets6 {
+  animation-name: characterDroplets;
+  animation-duration: 7s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 7s;
+
+  transform: translateY(0px);
+}
+
+.droplets7 {
+  animation-name: characterDroplets;
+  animation-duration: 8s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 8s;
+
+  transform: translateY(0px);
+}
+
+.droplets8 {
+  animation-name: characterDroplets;
+  animation-duration: 9s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 9s;
+
+  transform: translateY(0px);
+}
+
+.droplets9 {
+  animation-name: characterDroplets;
+  animation-duration: 10s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 10s;
+
+  transform: translateY(0px);
+}
+
+.droplets10 {
+  animation-name: characterDroplets;
+  animation-duration: 11s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 11s;
+
+  transform: translateY(0px);
+}
+
+.droplets11 {
+  animation-name: characterDroplets;
+  animation-duration: 12s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 12s;
+
+  transform: translateY(0px);
+}
+
+.droplets12 {
+  animation-name: characterDroplets;
+  animation-duration: 13s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 13s;
+
+  transform: translateY(0px);
+}
+
+.droplets13 {
+  animation-name: characterDroplets;
+  animation-duration: 14s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 14s;
+
+  transform: translateY(0px);
+}
+
+.droplets14 {
+  animation-name: characterDroplets;
+  animation-duration: 15s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 15s;
+
+  transform: translateY(0px);
+}
+
+.droplets15 {
+  animation-name: characterDroplets;
+  animation-duration: 16s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 16s;
+
+  transform: translateY(0px);
+}
+
+.droplets16 {
+  animation-name: characterDroplets;
+  animation-duration: 17s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 17s;
+
+  transform: translateY(0px);
+}
+
+.droplets17 {
+  animation-name: characterDroplets;
+  animation-duration: 18s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 18s;
+
+  transform: translateY(0px);
+}
+
+.droplets18 {
+  animation-name: characterDroplets;
+  animation-duration: 19s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 19s;
+
+  transform: translateY(0px);
+}
+
+.droplets19 {
+  animation-name: characterDroplets;
+  animation-duration: 20s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-delay: 20s;
+
+  transform: translateY(0px);
+}
+
+@keyframes wordClouds {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.cloud {
+  animation: wordClouds 5s infinite ;
+}
+
+.cloud1 {
+  animation: wordClouds 6s infinite ;
+}
+
+.cloud2 {
+  animation: wordClouds 7s infinite ;
+}
+
+.cloud3 {
+  animation: wordClouds 8s infinite ;
+}
+
+.cloud4 {
+  animation: wordClouds 9s infinite ;
+}
+
+.cloud5 {
+  animation: wordClouds 10s infinite ;
+}
+
+.cloud6 {
+  animation: wordClouds 11s infinite ;
+}
+
+.cloud7 {
+  animation: wordClouds 12s infinite ;
+}
+
+.cloud8 {
+  animation: wordClouds 13s infinite ;
+}
+
+@keyframes windClouds {
+  from {
+    transform: translateX(-1000px);
+  }
+  100% {
+    opacity: 0;
+  }
+
+
+  to {
+    transfrom: translateX(0);
+  }
+  0% {
+    opacity: 1;
+  }
+
+}
+
+.passingCloud {
+  animation: windClouds 6s infinite;
+}
+
+.passingCloud1 {
+  animation: windClouds 7s infinite;
 }
